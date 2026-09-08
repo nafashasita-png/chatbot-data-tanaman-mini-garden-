@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 
 # ==========================================
@@ -348,4 +347,3 @@ st.divider()
 st.caption(
     "🌱 Mini Garden Chatbot | Projek Informatika Kelas XII"
 )
-```
