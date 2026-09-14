@@ -196,7 +196,7 @@ data_tanaman = {
     },
 
     "bayam": {
-        "nama": "",Amaranthus tricolor
+        "nama": "Amaranthus tricolor",
         "jenis": "Sayuran",
         "cahaya":"cahaya matahari langsung yang cukup",
         "air": "1×/hari",
