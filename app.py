@@ -72,7 +72,7 @@ data_tanaman = {
     "cabai": {
         "nama": "Capsicum annuum",
         "jenis": "Tanaman sayuran",
-        "cahaya":cahaya matahari langsung yang cukup",
+        "cahaya":"cahaya matahari langsung yang cukup",
         "air": "1×/hari",
         "manfaat": "Bumbu dan sumber vitamin",
         "perawatan": "Sinar matahari cukup, siram teratur, beri pupuk"
