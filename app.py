@@ -34,171 +34,171 @@ st.divider()
 data_tanaman = {
 
     "lidah buaya": {
-        "nama": "Lidah Buaya",
-        "nama_ilmiah": "Aloe vera",
+        "nama": "Aloe vera",
         "jenis": "Sukulen",
+        "cahaya": "Butuh cahaya terang",
         "air": "2–3×/minggu, jangan terlalu basah",
         "manfaat": "Perawatan kulit, obat tradisional",
         "perawatan": "Media porous, cukup cahaya, jangan terlalu sering disiram"
     },
 
     "pepaya": {
-        "nama": "Pepaya",
-        "nama_ilmiah": "Carica papaya",
+        "nama": "carica papaya",
         "jenis": "Tanaman buah",
+        "cahaya": "cahaya matahari langsung dan cukup banyak",
         "air": "1×/hari saat tanah kering",
         "manfaat": "Buah, sumber vitamin",
         "perawatan": "Banyak cahaya, tanah subur, beri pupuk"
     },
 
     "pisang": {
-        "nama": "Pisang",
-        "nama_ilmiah": "Musa sp.",
+        "nama": "musa sp",
         "jenis": "Tanaman buah",
+        "cahaya": "cahaya matahari langsung dan cukup banyak",
         "air": "1×/hari",
         "manfaat": "Buah, sumber energi",
         "perawatan": "Tanah lembap, cukup sinar matahari, beri pupuk"
     },
 
     "pandan": {
-        "nama": "Pandan",
-        "nama_ilmiah": "Pandanus amaryllifolius",
+        "nama": "Pandanus amaryllifolius",
         "jenis": "Tanaman rempah",
+        "cahaya": "terang, tetapi tidak harus terkena matahari langsung sepanjang hari. Pandan dapat tumbuh baik di tempat terang dengan sedikit teduh.",
         "air": "1×/hari secukupnya",
         "manfaat": "Pewangi makanan/minuman",
         "perawatan": "Tanah lembap, cahaya cukup, pot memiliki drainase"
     },
 
     "cabai": {
-        "nama": "Cabai",
-        "nama_ilmiah": "Capsicum annuum",
+        "nama": "Capsicum annuum",
         "jenis": "Tanaman sayuran",
+        "cahaya":cahaya matahari langsung yang cukup",
         "air": "1×/hari",
         "manfaat": "Bumbu dan sumber vitamin",
         "perawatan": "Sinar matahari cukup, siram teratur, beri pupuk"
     },
 
     "tomat": {
-        "nama": "Tomat",
-        "nama_ilmiah": "Solanum lycopersicum",
+        "nama": "Solanum lycopersicum",
         "jenis": "Tanaman sayuran",
+        "cahaya":"cahaya matahari langsung yang cukup",
         "air": "1×/hari",
         "manfaat": "Bahan makanan, vitamin",
         "perawatan": "Cahaya cukup, pasang penyangga, beri pupuk"
     },
 
     "kemangi": {
-        "nama": "Kemangi",
-        "nama_ilmiah": "Ocimum basilicum",
+        "nama": "Ocimum basilicum",
         "jenis": "Tanaman herbal",
+        "cahaya":"cahaya matahari langsung yang cukup",
         "air": "1×/hari",
         "manfaat": "Lalapan dan bumbu",
         "perawatan": "Cukup sinar, pangkas pucuk, tanah tidak tergenang"
     },
 
     "seledri": {
-        "nama": "Seledri",
-        "nama_ilmiah": "Apium graveolens",
+        "nama": "Apium graveolens",
         "jenis": "Tanaman sayuran",
+        "cahaya":"cahaya terang, tetapi lebih baik tidak terkena matahari langsung terlalu lama.",
         "air": "1×/hari",
         "manfaat": "Bumbu dan pelengkap makanan",
         "perawatan": "Tanah lembap, cahaya pagi, beri pupuk organik"
     },
 
     "bawang daun": {
-        "nama": "Bawang Daun",
-        "nama_ilmiah": "Allium fistulosum",
+        "nama": "Allium fistulosum",
         "jenis": "Tanaman sayuran",
+        "cahaya":"cahaya matahari langsung yang cukup",
         "air": "1×/hari",
         "manfaat": "Bumbu masakan",
         "perawatan": "Tanah gembur, cukup cahaya, pot tidak tergenang"
     },
 
     "kangkung": {
-        "nama": "Kangkung",
-        "nama_ilmiah": "Ipomoea aquatica",
+        "nama": "Ipomoea aquatica",
         "jenis": "Tanaman sayuran",
+        "cahaya":"cahaya matahari langsung yang cukup",
         "air": "1×/hari",
         "manfaat": "Sayuran dan sumber serat",
         "perawatan": "Tanah lembap, cukup sinar matahari"
     },
 
     "sawi": {
-        "nama": "Sawi",
-        "nama_ilmiah": "Brassica juncea",
+        "nama": "Brassica juncea",
         "jenis": "Tanaman sayuran",
+        "cahaya":"cahaya matahari yang cukup dan tidak terlalu panas",
         "air": "1×/hari",
         "manfaat": "Sayuran, vitamin dan mineral",
         "perawatan": "Tanah subur, siram rutin, hindari genangan"
     },
 
     "jeruk": {
-        "nama": "Jeruk",
-        "nama_ilmiah": "Citrus sp.",
+        "nama": "Citrus sp.",
         "jenis": "Tanaman buah",
+        "cahaya":"cahaya matahari langsung yang cukup",
         "air": "1×/hari saat kering",
         "manfaat": "Buah dan sumber vitamin C",
         "perawatan": "Sinar matahari cukup, pupuk berkala"
     },
 
     "singkong": {
-        "nama": "Singkong",
-        "nama_ilmiah": "Manihot esculenta",
+        "nama": "Manihot esculenta",
         "jenis": "Tanaman pangan",
+        "cahaya":"cahaya matahari langsung yang cukup",
         "air": "2–3×/minggu",
         "manfaat": "Sumber karbohidrat",
         "perawatan": "Tanah gembur, cukup cahaya, jangan tergenang"
     },
 
     "keladi/talas": {
-        "nama": "Keladi/Talas",
-        "nama_ilmiah": "Colocasia esculenta",
+        "nama": "Colocasia Esculenta",
         "jenis": "Tanaman pangan/hias",
+        "cahaya":"cahaya terang, tetapi bisa tumbuh di tempat teduh sebagian",
         "air": "1×/hari secukupnya",
         "manfaat": "Pangan dan tanaman hias",
         "perawatan": "Tanah lembap, teduh sebagian, beri pupuk"
     },
 
     "palem": {
-        "nama": "Palem",
-        "nama_ilmiah": "Arecaceae sp.",
+        "nama": "Arecaceae sp.",
         "jenis": "Tanaman hias",
+        "cahaya":"cahaya matahari langsung yang cukup",
         "air": "2–4×/minggu",
         "manfaat": "Mempercantik dan menghijaukan lingkungan",
         "perawatan": "Cahaya cukup, pangkas daun kering, siram secukupnya"
     },
 
     "ubi jalar": {
-        "nama": "Ubi Jalar",
-        "nama_ilmiah": "Ipomoea batatas",
+        "nama": "Ipomoea batatas",
         "jenis": "Tanaman pangan",
+        "cahaya":"cahaya matahari langsung yang cukup",
         "air": "1×/hari saat kering",
         "manfaat": "Sumber karbohidrat dan serat",
         "perawatan": "Tanah gembur, cukup cahaya, siram secukupnya"
     },
 
     "selada": {
-        "nama": "Selada",
-        "nama_ilmiah": "Lactuca sativa",
+        "nama": "Lactuca sativa",
         "jenis": "Sayuran",
+        "cahaya":"cahaya terang, tetapi tidak terlalu terik atau tempat dengan teduh sebagian",
         "air": "1×/hari",
         "manfaat": "Lalapan, sumber serat dan vitamin",
         "perawatan": "Tanah lembap, tidak tergenang, cahaya cukup"
     },
 
     "terong": {
-        "nama": "Terong",
-        "nama_ilmiah": "Solanum melongena",
+        "nama": "Solanum melongena",
         "jenis": "Sayuran",
+        "cahaya":"cahaya matahari langsung yang cukup",
         "air": "1×/hari",
         "manfaat": "Sumber serat dan vitamin",
         "perawatan": "Tanah subur, cukup cahaya, beri pupuk"
     },
 
     "bayam": {
-        "nama": "Bayam",
-        "nama_ilmiah": "Amaranthus tricolor",
+        "nama": "",Amaranthus tricolor
         "jenis": "Sayuran",
+        "cahaya":"cahaya matahari langsung yang cukup",
         "air": "1×/hari",
         "manfaat": "Mengandung zat besi dan vitamin",
         "perawatan": "Tanah subur, lembap, dan cukup cahaya"
