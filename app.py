@@ -34,7 +34,8 @@ st.divider()
 data_tanaman = {
 
     "lidah buaya": {
-        "nama": "Aloe vera",
+        "nama": "Lidah Buaya",
+        "nama ilmiah": "Aloe Vera",
         "jenis": "Sukulen",
         "cahaya": "Butuh cahaya terang",
         "air": "2–3×/minggu, jangan terlalu basah",
@@ -403,7 +404,7 @@ if st.button("💬 Tanya Chatbot"):
 
     else:
 
-        st.warning("Silakan masukkan pertanyaan terlebih dahulu.")
+        st.warning(".")
 
 
 st.divider()
