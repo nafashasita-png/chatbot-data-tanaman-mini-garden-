@@ -35,7 +35,7 @@ data_tanaman = {
 
     "lidah buaya": {
         "nama": "Lidah Buaya",
-        "nama ilmiah": "Aloe Vera",
+        "nama_ilmiah": "Aloe Vera",
         "jenis": "Sukulen",
         "cahaya": "Butuh cahaya terang",
         "air": "2–3×/minggu, jangan terlalu basah",
@@ -44,7 +44,8 @@ data_tanaman = {
     },
 
     "pepaya": {
-        "nama": "carica papaya",
+        "nama": "pepaya",
+        "nama_ilmiah":"carica papaya",
         "jenis": "Tanaman buah",
         "cahaya": "cahaya matahari langsung dan cukup banyak",
         "air": "1×/hari saat tanah kering",
@@ -53,7 +54,8 @@ data_tanaman = {
     },
 
     "pisang": {
-        "nama": "musa sp",
+        "nama": "pisang",
+        "nama_ilmiah":"musa sp",
         "jenis": "Tanaman buah",
         "cahaya": "cahaya matahari langsung dan cukup banyak",
         "air": "1×/hari",
@@ -62,7 +64,8 @@ data_tanaman = {
     },
 
     "pandan": {
-        "nama": "Pandanus amaryllifolius",
+        "nama": "pandan",
+        "nama_ilmiah":"Pandanus amaryllifolius",
         "jenis": "Tanaman rempah",
         "cahaya": "terang, tetapi tidak harus terkena matahari langsung sepanjang hari. Pandan dapat tumbuh baik di tempat terang dengan sedikit teduh.",
         "air": "1×/hari secukupnya",
@@ -71,7 +74,8 @@ data_tanaman = {
     },
 
     "cabai": {
-        "nama": "Capsicum annuum",
+        "nama": "cabai",
+        "nama_ilmiah":"Capsicum annuum",
         "jenis": "Tanaman sayuran",
         "cahaya":"cahaya matahari langsung yang cukup",
         "air": "1×/hari",
@@ -80,7 +84,8 @@ data_tanaman = {
     },
 
     "tomat": {
-        "nama": "Solanum lycopersicum",
+        "nama": "tomat",
+        "nama_ilmiah":"Solanum lycopersicum",
         "jenis": "Tanaman sayuran",
         "cahaya":"cahaya matahari langsung yang cukup",
         "air": "1×/hari",
@@ -89,7 +94,8 @@ data_tanaman = {
     },
 
     "kemangi": {
-        "nama": "Ocimum basilicum",
+        "nama": "kemangi",
+        "nama_ilmiah":"Ocimum basilicum",
         "jenis": "Tanaman herbal",
         "cahaya":"cahaya matahari langsung yang cukup",
         "air": "1×/hari",
@@ -98,7 +104,8 @@ data_tanaman = {
     },
 
     "seledri": {
-        "nama": "Apium graveolens",
+        "nama": "seledri",
+        "nama_ilmiah":"Apium graveolens"
         "jenis": "Tanaman sayuran",
         "cahaya":"cahaya terang, tetapi lebih baik tidak terkena matahari langsung terlalu lama.",
         "air": "1×/hari",
@@ -370,6 +377,7 @@ if nama_tanaman != "Pilih tanaman":
 
             st.info(f"🌱 **{tanaman['nama']}**")
 
+            st.write(f"**nama ilmiah:** {tanaman['nama ilmiah']}")
             st.write(f"**Jenis:** {tanaman['jenis']}")
             st.write(f"**☀️ Cahaya:** {tanaman['cahaya']}")
             st.write(f"**💧 Penyiraman:** {tanaman['air']}")
