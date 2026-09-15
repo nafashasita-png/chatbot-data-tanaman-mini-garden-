@@ -290,7 +290,7 @@ def chatbot(pertanyaan):
             else:
                 return (
                     f"🌿 **{tanaman['nama']}**\n\n"
-                    f"🔬 Nama ilmiah: {tanaman['nama_ilmiah']}\n\n"
+                    f"🔬 Nama_ilmiah: {tanaman['nama_ilmiah']}\n\n"
                     f"Jenis: {tanaman['jenis']}\n\n"
                     f"☀️ Cahaya: {tanaman['cahaya']}\n\n"
                     f"💧 Penyiraman: {tanaman['air']}\n\n"
