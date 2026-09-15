@@ -389,7 +389,7 @@ if nama_tanaman != "Pilih tanaman":
 
             st.info(f"🌱 **{tanaman['nama']}**")
 
-            st.write(f"**nama ilmiah:** {tanaman['nama ilmiah']}")
+            st.write(f"**nama_ilmiah:** {tanaman['nama_ilmiah']}")
             st.write(f"**Jenis:** {tanaman['jenis']}")
             st.write(f"**☀️ Cahaya:** {tanaman['cahaya']}")
             st.write(f"**💧 Penyiraman:** {tanaman['air']}")
