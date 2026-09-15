@@ -105,7 +105,7 @@ data_tanaman = {
 
     "seledri": {
         "nama": "seledri",
-        "nama_ilmiah":"Apium graveolens"
+        "nama_ilmiah":"Apium graveolens",
         "jenis": "Tanaman sayuran",
         "cahaya":"cahaya terang, tetapi lebih baik tidak terkena matahari langsung terlalu lama.",
         "air": "1×/hari",
@@ -114,7 +114,8 @@ data_tanaman = {
     },
 
     "bawang daun": {
-        "nama": "Allium fistulosum",
+        "nama": "bawang daun",
+        "nama_ilmiah":"Allium fistulosum",
         "jenis": "Tanaman sayuran",
         "cahaya":"cahaya matahari langsung yang cukup",
         "air": "1×/hari",
@@ -123,7 +124,8 @@ data_tanaman = {
     },
 
     "kangkung": {
-        "nama": "Ipomoea aquatica",
+        "nama": "kangkung",
+        "nama_ilmiah":"Ipomoea aquatica",
         "jenis": "Tanaman sayuran",
         "cahaya":"cahaya matahari langsung yang cukup",
         "air": "1×/hari",
@@ -132,7 +134,8 @@ data_tanaman = {
     },
 
     "sawi": {
-        "nama": "Brassica juncea",
+        "nama": "sawi",
+        "nama_ilmiah":"Brassica juncea",
         "jenis": "Tanaman sayuran",
         "cahaya":"cahaya matahari yang cukup dan tidak terlalu panas",
         "air": "1×/hari",
@@ -141,7 +144,8 @@ data_tanaman = {
     },
 
     "jeruk": {
-        "nama": "Citrus sp.",
+        "nama": "jeruk",
+        "nama_ilmiah":"Citrus sp.",
         "jenis": "Tanaman buah",
         "cahaya":"cahaya matahari langsung yang cukup",
         "air": "1×/hari saat kering",
@@ -150,7 +154,8 @@ data_tanaman = {
     },
 
     "singkong": {
-        "nama": "Manihot esculenta",
+        "nama": "singkong",
+        "nama_ilmiah":"Manihot esculenta",
         "jenis": "Tanaman pangan",
         "cahaya":"cahaya matahari langsung yang cukup",
         "air": "2–3×/minggu",
@@ -158,8 +163,9 @@ data_tanaman = {
         "perawatan": "Tanah gembur, cukup cahaya, jangan tergenang"
     },
 
-    "keladi/talas": {
-        "nama": "Colocasia Esculenta",
+    "talas": {
+        "nama": "talas",
+        "nama_ilmiah":"Colocasia Esculenta",
         "jenis": "Tanaman pangan/hias",
         "cahaya":"cahaya terang, tetapi bisa tumbuh di tempat teduh sebagian",
         "air": "1×/hari secukupnya",
@@ -168,7 +174,8 @@ data_tanaman = {
     },
 
     "palem": {
-        "nama": "Arecaceae sp.",
+        "nama": "palem",
+        "nama_ilmiah":"Arecaceae sp.",
         "jenis": "Tanaman hias",
         "cahaya":"cahaya matahari langsung yang cukup",
         "air": "2–4×/minggu",
@@ -177,7 +184,8 @@ data_tanaman = {
     },
 
     "ubi jalar": {
-        "nama": "Ipomoea batatas",
+        "nama": "ubi jalar",
+        "nama_ilmiah":"Ipomoea batatas",
         "jenis": "Tanaman pangan",
         "cahaya":"cahaya matahari langsung yang cukup",
         "air": "1×/hari saat kering",
@@ -186,7 +194,8 @@ data_tanaman = {
     },
 
     "selada": {
-        "nama": "Lactuca sativa",
+        "nama": "selada",
+        "nama_ilmiah":"Lactuca sativa",
         "jenis": "Sayuran",
         "cahaya":"cahaya terang, tetapi tidak terlalu terik atau tempat dengan teduh sebagian",
         "air": "1×/hari",
@@ -195,7 +204,8 @@ data_tanaman = {
     },
 
     "terong": {
-        "nama": "Solanum melongena",
+        "nama": "terong",
+        "nama_ilmiah":"Solanum melongena",
         "jenis": "Sayuran",
         "cahaya":"cahaya matahari langsung yang cukup",
         "air": "1×/hari",
@@ -204,7 +214,8 @@ data_tanaman = {
     },
 
     "bayam": {
-        "nama": "Amaranthus tricolor",
+        "nama": "bayam",
+        "nama_ilmiah":"Amaranthus tricolor",
         "jenis": "Sayuran",
         "cahaya":"cahaya matahari langsung yang cukup",
         "air": "1×/hari",
@@ -279,6 +290,7 @@ def chatbot(pertanyaan):
             else:
                 return (
                     f"🌿 **{tanaman['nama']}**\n\n"
+                    f"🔬 Nama ilmiah: {tanaman['nama_ilmiah']}\n\n"
                     f"Jenis: {tanaman['jenis']}\n\n"
                     f"☀️ Cahaya: {tanaman['cahaya']}\n\n"
                     f"💧 Penyiraman: {tanaman['air']}\n\n"
